@@ -35,8 +35,10 @@ const LogoWrapper = styled.div`
         fill: #89c70d;
         width: 500px; 
         height: 500px; 
+        transition: rotate(1turn);
         &:hover {
             transform: rotate(0.5turn);
+            fill: #b3e253; 
         }
     }
     span {
